@@ -305,7 +305,7 @@ Signed-off-by: Sebastian Reichel <sebastian.reichel@collabora.com>
  			cpu-idle-states = <&CPU_SLEEP>;
  			i-cache-size = <65536>;
  			i-cache-line-size = <64>;
-@@ -368,6 +586,230 @@
+@@ -362,6 +580,230 @@
  		#clock-cells = <0>;
  	};
  
@@ -536,7 +536,7 @@ Signed-off-by: Sebastian Reichel <sebastian.reichel@collabora.com>
  	timer {
  		compatible = "arm,armv8-timer";
  		interrupts = <GIC_PPI 13 IRQ_TYPE_LEVEL_HIGH 0>,
-@@ -503,6 +945,16 @@
+@@ -491,6 +933,16 @@
  		reg = <0x0 0xfd58c000 0x0 0x1000>;
  	};
  

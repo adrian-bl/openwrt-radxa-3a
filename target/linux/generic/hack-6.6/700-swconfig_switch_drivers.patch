@@ -95,7 +95,7 @@ Signed-off-by: Felix Fietkau <nbd@nbd.name>
  config AMD_PHY
 --- a/drivers/net/phy/Makefile
 +++ b/drivers/net/phy/Makefile
-@@ -24,6 +24,19 @@ libphy-$(CONFIG_LED_TRIGGER_PHY)	+= phy_
+@@ -26,6 +26,19 @@ libphy-$(CONFIG_LED_TRIGGER_PHY)	+= phy_
  obj-$(CONFIG_PHYLINK)		+= phylink.o
  obj-$(CONFIG_PHYLIB)		+= libphy.o
  
