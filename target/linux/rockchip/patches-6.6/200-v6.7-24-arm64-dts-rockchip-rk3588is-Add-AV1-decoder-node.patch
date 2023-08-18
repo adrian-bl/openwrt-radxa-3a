@@ -13,7 +13,7 @@ Signed-off-by: Sebastian Reichel <sebastian.reichel@collabora.com>
 
 --- a/arch/arm64/boot/dts/rockchip/rk3588s.dtsi
 +++ b/arch/arm64/boot/dts/rockchip/rk3588s.dtsi
-@@ -2432,6 +2432,20 @@
+@@ -2420,6 +2420,20 @@
  			#interrupt-cells = <2>;
  		};
  	};
